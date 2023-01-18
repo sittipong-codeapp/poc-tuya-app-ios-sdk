@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9551F5893D45A6FD0E09B5F6 /* Pods_smart_life_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C7331E9C555A3DCE6BCE6A /* Pods_smart_life_sdk.framework */; };
+		A517862129716C1A00C0F1FD /* t_s.bmp in Resources */ = {isa = PBXBuildFile; fileRef = A517862029716C1A00C0F1FD /* t_s.bmp */; };
+		A5CA6CE029756A2B00E74B8B /* DeviceAddingAPMode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CA6CDF29756A2B00E74B8B /* DeviceAddingAPMode.storyboard */; };
+		A5CA6CE32976B20800E74B8B /* DeviceAddingAPModeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6CE22976B20800E74B8B /* DeviceAddingAPModeTableViewController.swift */; };
+		A5CA6CE62976B7A400E74B8B /* TuyaHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6CE52976B7A400E74B8B /* TuyaHome.swift */; };
+		A5CA6CE92977ABD700E74B8B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6CE82977ABD700E74B8B /* Alert.swift */; };
+		A5CA6CEB297803D200E74B8B /* DeviceAddingZigbeeGateway.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CA6CEA297803D200E74B8B /* DeviceAddingZigbeeGateway.storyboard */; };
+		A5CA6CEE2978047400E74B8B /* DeviceAddingZigbeeGatewayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6CED2978047400E74B8B /* DeviceAddingZigbeeGatewayTableViewController.swift */; };
+		A5CA6CF029780A4B00E74B8B /* DeviceAddingZigbeeSubdevice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CA6CEF29780A4B00E74B8B /* DeviceAddingZigbeeSubdevice.storyboard */; };
+		A5CA6CF329780B8000E74B8B /* DeviceAddingZigbeeSubdeviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6CF229780B8000E74B8B /* DeviceAddingZigbeeSubdeviceTableViewController.swift */; };
+		A5FEB5172971581B00DC2F65 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB5162971581B00DC2F65 /* MainViewController.swift */; };
+		A5FEB519297158EF00DC2F65 /* HomeInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FEB518297158EF00DC2F65 /* HomeInformation.storyboard */; };
+		A5FEB51B2971591A00DC2F65 /* DeviceInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FEB51A2971591A00DC2F65 /* DeviceInformation.storyboard */; };
+		A5FEB51D2971592600DC2F65 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FEB51C2971592600DC2F65 /* Login.storyboard */; };
+		A5FEB51F2971595000DC2F65 /* UserInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FEB51E2971595000DC2F65 /* UserInformation.storyboard */; };
+		A5FEB52429715E0400DC2F65 /* LoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB52329715E0400DC2F65 /* LoginTableViewController.swift */; };
+		A5FEB5262971611800DC2F65 /* AppKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FEB5252971611800DC2F65 /* AppKey.swift */; };
+		A5FEE343296D791A0042CFF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FEE342296D791A0042CFF9 /* AppDelegate.swift */; };
+		A5FEE345296D791A0042CFF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FEE344296D791A0042CFF9 /* SceneDelegate.swift */; };
+		A5FEE34A296D791A0042CFF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FEE348296D791A0042CFF9 /* Main.storyboard */; };
+		A5FEE34C296D791C0042CFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5FEE34B296D791C0042CFF9 /* Assets.xcassets */; };
+		A5FEE34F296D791C0042CFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5FEE34D296D791C0042CFF9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		324EC990A08BE2BB1F6D7D02 /* Pods-smart-life-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smart-life-sdk.release.xcconfig"; path = "Target Support Files/Pods-smart-life-sdk/Pods-smart-life-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		61C7331E9C555A3DCE6BCE6A /* Pods_smart_life_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smart_life_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A517861E29716AAF00C0F1FD /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
+		A517862029716C1A00C0F1FD /* t_s.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = t_s.bmp; sourceTree = "<group>"; };
+		A5CA6CDF29756A2B00E74B8B /* DeviceAddingAPMode.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeviceAddingAPMode.storyboard; sourceTree = "<group>"; };
+		A5CA6CE22976B20800E74B8B /* DeviceAddingAPModeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAddingAPModeTableViewController.swift; sourceTree = "<group>"; };
+		A5CA6CE52976B7A400E74B8B /* TuyaHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuyaHome.swift; sourceTree = "<group>"; };
+		A5CA6CE82977ABD700E74B8B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		A5CA6CEA297803D200E74B8B /* DeviceAddingZigbeeGateway.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeviceAddingZigbeeGateway.storyboard; sourceTree = "<group>"; };
+		A5CA6CED2978047400E74B8B /* DeviceAddingZigbeeGatewayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAddingZigbeeGatewayTableViewController.swift; sourceTree = "<group>"; };
+		A5CA6CEF29780A4B00E74B8B /* DeviceAddingZigbeeSubdevice.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeviceAddingZigbeeSubdevice.storyboard; sourceTree = "<group>"; };
+		A5CA6CF229780B8000E74B8B /* DeviceAddingZigbeeSubdeviceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAddingZigbeeSubdeviceTableViewController.swift; sourceTree = "<group>"; };
+		A5FEB5162971581B00DC2F65 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A5FEB518297158EF00DC2F65 /* HomeInformation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeInformation.storyboard; sourceTree = "<group>"; };
+		A5FEB51A2971591A00DC2F65 /* DeviceInformation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeviceInformation.storyboard; sourceTree = "<group>"; };
+		A5FEB51C2971592600DC2F65 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		A5FEB51E2971595000DC2F65 /* UserInformation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserInformation.storyboard; sourceTree = "<group>"; };
+		A5FEB52329715E0400DC2F65 /* LoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTableViewController.swift; sourceTree = "<group>"; };
+		A5FEB5252971611800DC2F65 /* AppKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKey.swift; sourceTree = "<group>"; };
+		A5FEE33F296D791A0042CFF9 /* smart-life-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smart-life-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FEE342296D791A0042CFF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5FEE344296D791A0042CFF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5FEE349296D791A0042CFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5FEE34B296D791C0042CFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5FEE34E296D791C0042CFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5FEE350296D791C0042CFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF23A74B1AB4E414181C07BB /* Pods-smart-life-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smart-life-sdk.debug.xcconfig"; path = "Target Support Files/Pods-smart-life-sdk/Pods-smart-life-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5FEE33C296D791A0042CFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9551F5893D45A6FD0E09B5F6 /* Pods_smart_life_sdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56FD290C7894F529FBEFAC95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF23A74B1AB4E414181C07BB /* Pods-smart-life-sdk.debug.xcconfig */,
+				324EC990A08BE2BB1F6D7D02 /* Pods-smart-life-sdk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		881FE92CD62F4EE22B7CA53D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C7331E9C555A3DCE6BCE6A /* Pods_smart_life_sdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5CA6CE12976B1DE00E74B8B /* DeviceAddingAPMode */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA6CE22976B20800E74B8B /* DeviceAddingAPModeTableViewController.swift */,
+			);
+			path = DeviceAddingAPMode;
+			sourceTree = "<group>";
+		};
+		A5CA6CE42976B78700E74B8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA6CE52976B7A400E74B8B /* TuyaHome.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A5CA6CE72977ABC000E74B8B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA6CE82977ABD700E74B8B /* Alert.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A5CA6CEC2978042C00E74B8B /* DeviceAddingZigbeeGateway */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA6CED2978047400E74B8B /* DeviceAddingZigbeeGatewayTableViewController.swift */,
+			);
+			path = DeviceAddingZigbeeGateway;
+			sourceTree = "<group>";
+		};
+		A5CA6CF129780B5B00E74B8B /* DeviceAddingZigbeeSubdevice */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA6CF229780B8000E74B8B /* DeviceAddingZigbeeSubdeviceTableViewController.swift */,
+			);
+			path = DeviceAddingZigbeeSubdevice;
+			sourceTree = "<group>";
+		};
+		A5FEB5202971599000DC2F65 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A5FEE348296D791A0042CFF9 /* Main.storyboard */,
+				A5FEB518297158EF00DC2F65 /* HomeInformation.storyboard */,
+				A5FEB51A2971591A00DC2F65 /* DeviceInformation.storyboard */,
+				A5FEB51C2971592600DC2F65 /* Login.storyboard */,
+				A5FEB51E2971595000DC2F65 /* UserInformation.storyboard */,
+				A5FEE34D296D791C0042CFF9 /* LaunchScreen.storyboard */,
+				A5CA6CDF29756A2B00E74B8B /* DeviceAddingAPMode.storyboard */,
+				A5CA6CEA297803D200E74B8B /* DeviceAddingZigbeeGateway.storyboard */,
+				A5CA6CEF29780A4B00E74B8B /* DeviceAddingZigbeeSubdevice.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A5FEB521297159BE00DC2F65 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA6CE12976B1DE00E74B8B /* DeviceAddingAPMode */,
+				A5CA6CEC2978042C00E74B8B /* DeviceAddingZigbeeGateway */,
+				A5CA6CF129780B5B00E74B8B /* DeviceAddingZigbeeSubdevice */,
+				A5FEB52229715DEC00DC2F65 /* Login */,
+				A5FEB5162971581B00DC2F65 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A5FEB52229715DEC00DC2F65 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A5FEB52329715E0400DC2F65 /* LoginTableViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A5FEE336296D791A0042CFF9 = {
+			isa = PBXGroup;
+			children = (
+				A5FEE341296D791A0042CFF9 /* smart-life-sdk */,
+				A5FEE340296D791A0042CFF9 /* Products */,
+				56FD290C7894F529FBEFAC95 /* Pods */,
+				881FE92CD62F4EE22B7CA53D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5FEE340296D791A0042CFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5FEE33F296D791A0042CFF9 /* smart-life-sdk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5FEE341296D791A0042CFF9 /* smart-life-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				A517862029716C1A00C0F1FD /* t_s.bmp */,
+				A5FEB5252971611800DC2F65 /* AppKey.swift */,
+				A5FEE342296D791A0042CFF9 /* AppDelegate.swift */,
+				A5FEE344296D791A0042CFF9 /* SceneDelegate.swift */,
+				A5CA6CE72977ABC000E74B8B /* Helper */,
+				A5CA6CE42976B78700E74B8B /* Models */,
+				A5FEB5202971599000DC2F65 /* Storyboards */,
+				A5FEB521297159BE00DC2F65 /* ViewControllers */,
+				A5FEE34B296D791C0042CFF9 /* Assets.xcassets */,
+				A5FEE350296D791C0042CFF9 /* Info.plist */,
+				A517861E29716AAF00C0F1FD /* App-Bridging-Header.h */,
+			);
+			path = "smart-life-sdk";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5FEE33E296D791A0042CFF9 /* smart-life-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5FEE353296D791C0042CFF9 /* Build configuration list for PBXNativeTarget "smart-life-sdk" */;
+			buildPhases = (
+				DE8CABAA85135EB11541F3D9 /* [CP] Check Pods Manifest.lock */,
+				A5FEE33B296D791A0042CFF9 /* Sources */,
+				A5FEE33C296D791A0042CFF9 /* Frameworks */,
+				A5FEE33D296D791A0042CFF9 /* Resources */,
+				2B4F197CEE77935C3DF1318C /* [CP] Embed Pods Frameworks */,
+				5A66083D0BFC3F63848170C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "smart-life-sdk";
+			productName = "smart-life-sdk";
+			productReference = A5FEE33F296D791A0042CFF9 /* smart-life-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5FEE337296D791A0042CFF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					A5FEE33E296D791A0042CFF9 = {
+						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = A5FEE33A296D791A0042CFF9 /* Build configuration list for PBXProject "smart-life-sdk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5FEE336296D791A0042CFF9;
+			productRefGroup = A5FEE340296D791A0042CFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5FEE33E296D791A0042CFF9 /* smart-life-sdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5FEE33D296D791A0042CFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FEB519297158EF00DC2F65 /* HomeInformation.storyboard in Resources */,
+				A5FEE34F296D791C0042CFF9 /* LaunchScreen.storyboard in Resources */,
+				A517862129716C1A00C0F1FD /* t_s.bmp in Resources */,
+				A5FEB51D2971592600DC2F65 /* Login.storyboard in Resources */,
+				A5FEB51F2971595000DC2F65 /* UserInformation.storyboard in Resources */,
+				A5CA6CE029756A2B00E74B8B /* DeviceAddingAPMode.storyboard in Resources */,
+				A5CA6CEB297803D200E74B8B /* DeviceAddingZigbeeGateway.storyboard in Resources */,
+				A5FEE34C296D791C0042CFF9 /* Assets.xcassets in Resources */,
+				A5FEB51B2971591A00DC2F65 /* DeviceInformation.storyboard in Resources */,
+				A5CA6CF029780A4B00E74B8B /* DeviceAddingZigbeeSubdevice.storyboard in Resources */,
+				A5FEE34A296D791A0042CFF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B4F197CEE77935C3DF1318C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smart-life-sdk/Pods-smart-life-sdk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smart-life-sdk/Pods-smart-life-sdk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smart-life-sdk/Pods-smart-life-sdk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A66083D0BFC3F63848170C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smart-life-sdk/Pods-smart-life-sdk-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smart-life-sdk/Pods-smart-life-sdk-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smart-life-sdk/Pods-smart-life-sdk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE8CABAA85135EB11541F3D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smart-life-sdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5FEE33B296D791A0042CFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CA6CE62976B7A400E74B8B /* TuyaHome.swift in Sources */,
+				A5FEE343296D791A0042CFF9 /* AppDelegate.swift in Sources */,
+				A5FEB52429715E0400DC2F65 /* LoginTableViewController.swift in Sources */,
+				A5CA6CE32976B20800E74B8B /* DeviceAddingAPModeTableViewController.swift in Sources */,
+				A5FEE345296D791A0042CFF9 /* SceneDelegate.swift in Sources */,
+				A5FEB5172971581B00DC2F65 /* MainViewController.swift in Sources */,
+				A5CA6CEE2978047400E74B8B /* DeviceAddingZigbeeGatewayTableViewController.swift in Sources */,
+				A5CA6CF329780B8000E74B8B /* DeviceAddingZigbeeSubdeviceTableViewController.swift in Sources */,
+				A5CA6CE92977ABD700E74B8B /* Alert.swift in Sources */,
+				A5FEB5262971611800DC2F65 /* AppKey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5FEE348296D791A0042CFF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FEE349296D791A0042CFF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5FEE34D296D791C0042CFF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5FEE34E296D791C0042CFF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5FEE351296D791C0042CFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5FEE352296D791C0042CFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5FEE354296D791C0042CFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF23A74B1AB4E414181C07BB /* Pods-smart-life-sdk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76T6H9A9RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "smart-life-sdk/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-app.poc.smart-life-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "smart-life-sdk/App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A5FEE355296D791C0042CFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324EC990A08BE2BB1F6D7D02 /* Pods-smart-life-sdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76T6H9A9RE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "smart-life-sdk/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.code-app.poc.smart-life-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "smart-life-sdk/App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5FEE33A296D791A0042CFF9 /* Build configuration list for PBXProject "smart-life-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FEE351296D791C0042CFF9 /* Debug */,
+				A5FEE352296D791C0042CFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5FEE353296D791C0042CFF9 /* Build configuration list for PBXNativeTarget "smart-life-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5FEE354296D791C0042CFF9 /* Debug */,
+				A5FEE355296D791C0042CFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5FEE337296D791A0042CFF9 /* Project object */;
+}
